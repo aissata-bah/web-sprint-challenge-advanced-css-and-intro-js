@@ -249,15 +249,13 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array){
   const newArray = []
   for (let i = 0; i <array.length; i++){
-    if (array[i].years > 1900 && array[i].years <= 2000) {
+    if (array[i].years.includes(string)) {
       newArray.push(array[i].name)
   }
 }
   return newArray;
 }
 
-
-// whatever the result of new condition push to newArray, date is string NOT NUMBER
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:

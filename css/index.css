@@ -143,13 +143,13 @@ header {
     justify-content: space-evenly;
 }
 
-a {
+a { /*these fonts must be made smaller*/
     display: flex;
     justify-content: space-evenly;
     font-size: 80%;	
 }
 
-a:hover {	
+a:hover {	/*although in mobile format, these should still be bold as shown in mobile.png example*/
     font-weight: bold;	
 }	
 
@@ -158,33 +158,33 @@ a:hover {
     background-size: cover;
 }
 
-.title-container div {
+.title-container div { /*this must run the width of the page*/
     width: 100vw;
     background-size: 200%;
     margin-bottom: 1.5%;
 }
 
 
-.title-container hr {
+.title-container hr { /*this must run the width of the page*/
     width: 100vw;
 }
 
-.title-container h1 {
+.title-container h1 { /*the h1 must be made smaller*/
     font-size: 200%;
 }
 
-.artists-container {
+.artists-container { 
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.artists-container .bio {
+.artists-container .bio { /*font size should be smaller*/
     font-size: 40%;
 }
 
-.artists-container img {
+.artists-container img { /*this must run the width of the page*/
     width: 35vw;
     height:30vh;
 }
