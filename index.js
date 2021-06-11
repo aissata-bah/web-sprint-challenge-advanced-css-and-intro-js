@@ -247,8 +247,8 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array){
   const newArray = []
   for (let i = 0; i <array.length; i++){
-    let intergerList = parseInt(array[i].years) 
-    if (array[i].intergerList > 1900 && array[i].intergerList <= 2000) {
+    let intergerList = parseInt(array[i].years) // referred to intro to JS module project and stackoverflow/w3 schools documentation... parstInt will convert the strings in the values of the years key to integers so when the code loops through, it can check if the integers are greater or less than all integers between 1900-2000.
+    if (intergerList > 1900 && intergerList <= 2000) {
       newArray.push(array[i].name)
   }
 }
