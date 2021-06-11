@@ -140,13 +140,37 @@ button:hover{
 @media(max-width: 500px) {
     header {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
-nav {
-display: flex;
-justify-content: space-between;
-font-size: 1px;
+a {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 70%;	
+}
 
+a:hover {	
+    font-weight: bold;	
+}	
 
+.title-container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    /* margin: auto 10px; */
+}
+
+.title-container h1 {
+    font-size: 200%;
+}
+
+.artists-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 25%;
+}
+
+.artists-container img {
+    width: 30vw;
+    height:30vh;
 }
