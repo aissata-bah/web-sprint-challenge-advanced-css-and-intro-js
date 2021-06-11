@@ -154,10 +154,18 @@ a:hover {
 }	
 
 .title-container {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    /* margin: auto 10px; */
+    width: 100vw;
+    background-size: cover;
+}
+
+.title-container div {
+    width: 100vw;
+    background-size: 200%;
+    margin-bottom: 1.5%;
+}
+
+.title-container hr {
+    width: 100vw;
 }
 
 .title-container h1 {
@@ -167,10 +175,18 @@ a:hover {
 .artists-container {
     display: flex;
     flex-direction: row;
-    font-size: 25%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+.artists-container .bio {
+    font-size: 40%;
+}
 .artists-container img {
-    width: 30vw;
+    width: 35vw;
     height:30vh;
+}
+
+.artist {
+    width: 55%;
 }
