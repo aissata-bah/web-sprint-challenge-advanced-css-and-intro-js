@@ -235,8 +235,6 @@ console.log(artists);
 function getArtistByIndex(array, index) {
   return `the artist at index ${array[index].id} is ${array[index].name}`
 }  
-// getArtistByIndex (artists, 0);
-
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
@@ -249,7 +247,8 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array){
   const newArray = []
   for (let i = 0; i <array.length; i++){
-    if (array[i].years.includes(string)) {
+    let intergerList = parseInt(array[i].years) 
+    if (array[i].intergerList > 1900 && array[i].intergerList <= 2000) {
       newArray.push(array[i].name)
   }
 }
